@@ -10,7 +10,7 @@ let player = {
 // Game loop
 let gameLoop = setInterval(function() {
     player.mineGold();
-}, 1000); // Mine gold every 1000ms (1 second)
+}, 2000); // Mine gold every 2000ms (2 seconds)
 
 // Stop the game after 10 seconds
 setTimeout(function() {
