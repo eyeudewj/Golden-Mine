@@ -2,8 +2,8 @@
 let player = {
     gold: 0,
     mineGold: function() {
-        this.gold += 1;
-        console.log(`You mined 1 gold. Total gold: ${this.gold}`);
+        this.gold += 2;
+        console.log(`You mined 2 gold. Total gold: ${this.gold}`);
     }
 };
 
